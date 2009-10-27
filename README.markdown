@@ -35,3 +35,7 @@ The mailer expects that JSON messages will be sent to the queue with this format
       "subject": "Title Goes Here",
       "body": "Captivating, I'm sure"
     }
+
+## Disclaimer
+
+This does not handle failure scenarios with any grace whatsoever.  In fact, it will probably lose whatever email it pukes on and then just die without even saying "sorry".
