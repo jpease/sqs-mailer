@@ -1,0 +1,19 @@
+---
+sqs:
+  :queue_name:        'replace with your Amazon SQS queue name'
+  :access_key_id:     'replace with your Amazon access key id'
+  :secret_access_key: 'replace with your Amazon secret access key'
+
+mysupersecretidentifier:
+  :server:    'smtp.gmail.com'
+  :port:      '587'
+  :user:      'your.gmail.address.for.example@gmail.com'
+  :password:  'your_smtp_password'
+  :authtype:  'plain'
+
+anothersecretidentifier:
+  :server:    'smtp.foo.com'
+  :port:      '587'
+  :user:      'bar@foo.com'
+  :password:  'secretpassword'
+  :authtype:  'plain'
